@@ -7,7 +7,7 @@ This is a sudoku solver written in JavaScript. It was originally in Python, but 
 <li><strong>Solve</strong> - this will solve the current puzzle. If the puzzle has multiple solutions, it will only provide one.</li>
 <li><strong>Edit</strong> - this will edit the original puzzle if its solution is currently being displayed.</li>
 <li><strong>Reset</strong> - this will clear either the input or the current puzzle solution, which removes the need to refresh the page to enter a completely new puzzle.</li>
-<li>Informs user if puzzle is invalid</li>
+<li>Informs user if puzzle is invalid.</li>
 </ul>
 
 <h4>Algorithm</h4>
