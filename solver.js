@@ -39,6 +39,7 @@ function solve() {
 		for (j = 0; j < 9; j += 1) {
 			if (rows[i][j] === 0) {
 				unknown.push([i, j]);
+                rows[i][j] = 0;
             } else {
                 if (cont(rows[i]) || cont(cols[j]) || cont(boxes[3 * (Math.floor(i / 3)) + Math.floor(j / 3)])) {
                     return [[], [], [], [], [], [], [], [], []];
@@ -82,7 +83,7 @@ function solveButton() {
     for (i = 0; i < 9; i += 1) {
         for (j = 0; j < 9; j += 1) {
             val = document.getElementById("sudoku").childNodes[i].childNodes[j].childNodes[0].value;
-            if (val === "") {
+            if (val === "" || val < 1 || val > 9) {
                 original[i].push(0);
                 rows[i].push(0);
                 cols[j].push(0);
