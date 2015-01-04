@@ -8,14 +8,14 @@
     border-style: solid;
     border-color: black;
     display: inline-block;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     margin-bottom: 0px;
 }
 
 input[type="number"] {
-    width: 80px;
-    height: 78px;
+    width: 60px;
+    height: 58px;
     margin: auto;
     text-align: center;
     border: none;
@@ -32,15 +32,15 @@ input[type="button"] {
     /* border: 2px solid #c2d1a5; */
     border: none;
     color: #ffffff;
-    background-color: #a6efec;
-    font-size: 16px;
+    background-color: #2f908c;
+    font-size: 26px;
     font-family: sans-serif;
 }
 
 .answer {
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 22px;
+    margin-bottom: 22px;
     font-size: 16px;
     font-family: sans-serif;
 }
