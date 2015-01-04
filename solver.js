@@ -75,6 +75,7 @@ function solve() {
 function solveButton() {
     "use strict";
     var i, j, val, out, inp;
+    //var time //used for calculating time elapsed in solving a puzzle; uncomment this line and the other two commented lines below to see this output in the console
     if (!edit) {
         return;
     }
@@ -94,7 +95,9 @@ function solveButton() {
             }
         }
     }
+    //time = new Date().getTime();
     rows = solve(rows, cols, boxes);
+    //console.log(new Date().getTime() - time);
     if (rows[0].length === 0) {
         alert("Invalid sudoku");
         clr();
@@ -141,6 +144,7 @@ function editButton() {
 }
 
 function resetButton() {
+    "use strict";
     var i, j;
     if (!edit) {
         clr();
