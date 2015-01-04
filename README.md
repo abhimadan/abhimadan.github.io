@@ -4,9 +4,9 @@ This is a sudoku solver written in JavaScript. It was originally in Python, but 
 
 <h4>Features</h4>
 <ul>
-<li><span style="color: #0000cc; font-weight: bold">Solve</span> - this will solve the current puzzle. If the puzzle has multiple solutions, it will only provide one.</li>
-<li><span style="color: #0000cc; font-weight: bold">Edit</span> - this will edit the original puzzle if its solution is currently being displayed.</li>
-<li><span style="color: #0000cc; font-weight: bold">Reset</span> - this will clear either the input or the current puzzle solution, which removes the need to refresh the page to enter a completely new puzzle.</li>
+<li><strong>Solve</strong> - this will solve the current puzzle. If the puzzle has multiple solutions, it will only provide one.</li>
+<li><strong>Edit</strong> - this will edit the original puzzle if its solution is currently being displayed.</li>
+<li><strong>Reset</strong> - this will clear either the input or the current puzzle solution, which removes the need to refresh the page to enter a completely new puzzle.</li>
 </ul>
 
 <h4>Algorithm</h4>
