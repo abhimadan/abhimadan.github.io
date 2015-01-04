@@ -167,16 +167,6 @@ window.onload = function () {
         for (j = 0; j < 9; j += 1) {
             box = document.createElement("div");
             box.className = "box";
-            if (i === 0) {
-                box.style.borderTopWidth = "2px";
-            } else if (i === 8) {
-                box.style.borderBottomWidth = "2px";
-            }
-            if (j === 0) {
-                box.style.borderLeftWidth = "2px";
-            } else if (j === 8) {
-                box.style.borderRightWidth = "2px";
-            }
             if (i % 3 === 2) {
                 if (i === 8) {
                     box.style.borderBottomWidth = "4px";
