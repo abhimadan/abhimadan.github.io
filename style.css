@@ -1,0 +1,46 @@
+.row {
+    margin: 0px;
+    font-size: 0px;
+}
+
+.box {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 0;
+    font-size: 1 em;
+}
+
+input[type="number"] {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    border: none;
+}
+
+input[type="number"]:invalid {
+    background-color: red;
+}
+
+input[type="button"] {
+    margin-top: 15px;
+    /* border: 2px solid #c2d1a5; */
+    border: none;
+    color: #ffffff;
+    background-color: #a6efec;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.answer {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
