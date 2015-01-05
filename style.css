@@ -1,18 +1,18 @@
 h1 {
     text-align: center;
+    font-family: sans-serif;
 }
 
 .row {
     font-size: 0px;
     width: 568px;
     margin: auto;
-    display: block;
 }
 
 .box {
     border-width: 1px;
     border-style: solid;
-    border-color: black;
+    border-color: #000000;
     display: inline-block;
     height: 60px;
     width: 60px;
@@ -34,13 +34,14 @@ input[type="number"]:invalid {
 }
 
 input[type="button"] {
-    margin-top: 15px;
+    margin-top: 50px;
     /* border: 2px solid #c2d1a5; */
     border: none;
     color: #ffffff;
     background-color: #2f908c;
     font-size: 26px;
     font-family: sans-serif;
+    display: inline-block;
 }
 
 .answer {
@@ -49,4 +50,8 @@ input[type="button"] {
     margin-bottom: 22px;
     font-size: 16px;
     font-family: sans-serif;
+}
+
+#buttons {
+    text-align: center;
 }
