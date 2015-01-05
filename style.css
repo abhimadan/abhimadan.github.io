@@ -1,6 +1,12 @@
+h1 {
+    text-align: center;
+}
+
 .row {
-    margin: 0px;
     font-size: 0px;
+    width: 568px;
+    margin: auto;
+    display: block;
 }
 
 .box {
