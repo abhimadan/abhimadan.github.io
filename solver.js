@@ -156,7 +156,7 @@ function resetButton() {
                 document.getElementById("sudoku").childNodes[i].childNodes[j].childNodes[0].value = "";
             }
         }
-    }    
+    }
 }
 
 window.onload = function () {

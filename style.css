@@ -42,6 +42,13 @@ input[type="button"] {
     font-size: 26px;
     font-family: sans-serif;
     display: inline-block;
+    border-radius: 15%;
+}
+
+input[type="button"]:hover {
+    color: #2f908c;
+    /*color: #1b8860;*/
+    background-color: #12e5dc;
 }
 
 .answer {
