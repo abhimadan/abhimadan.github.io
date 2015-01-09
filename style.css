@@ -10,7 +10,7 @@ h1 {
 }
 
 .box {
-    border-width: 0.1056vh 0.052083vw 0.1056vh 0.052083vw;
+    border-width: 1px;
     border-style: solid;
     border-color: #000000;
     display: inline-block;
