@@ -170,28 +170,28 @@ window.onload = function () {
             box.className = "box";
             if (i % 3 === 2) {
                 if (i === 8) {
-                    box.style.borderBottomWidth = "4px";
+                    box.style.borderBottomWidth = "0.4224vh";
                 } else {
-                    box.style.borderBottomWidth = "2px";
+                    box.style.borderBottomWidth = "0.2112vh";
                 }
             } else if (i % 3 === 0) {
                 if (i === 0) {
-                    box.style.borderTopWidth = "4px";
+                    box.style.borderTopWidth = "0.4224vh";
                 } else {
-                    box.style.borderTopWidth = "2px";
+                    box.style.borderTopWidth =  "0.2112vh";
                 }
             }
             if (j % 3 === 2) {
                 if (j === 8) {
-                    box.style.borderRightWidth = "4px";
+                    box.style.borderRightWidth = "0.2083vw";
                 } else {
-                    box.style.borderRightWidth = "2px";
+                    box.style.borderRightWidth = "0.10417vw";
                 }
             } else if (j % 3 === 0) {
                 if (j === 0) {
-                    box.style.borderLeftWidth = "4px";
+                    box.style.borderLeftWidth = "0.2083vw";
                 } else {
-                    box.style.borderLeftWidth = "2px";
+                    box.style.borderLeftWidth = "0.10417vw";
                 }
             }
             text = document.createElement("input");

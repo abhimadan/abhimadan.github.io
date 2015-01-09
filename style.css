@@ -5,7 +5,7 @@ h1 {
 
 .row {
     font-size: 0px;
-    width: 568px;
+    width: 29.5833vw;
     margin: auto;
 }
 
@@ -14,14 +14,14 @@ h1 {
     border-style: solid;
     border-color: #000000;
     display: inline-block;
-    height: 60px;
-    width: 60px;
-    margin-bottom: 0px;
+    width: 3.125vw;
+    height: 6.3358vh;
+    margin-bottom: 0vh;
 }
 
 input[type="number"] {
-    width: 60px;
-    height: 58px;
+    width: 3.125vw;
+    height: 6.1246vh;
     margin: auto;
     text-align: center;
     border: none;
@@ -34,7 +34,7 @@ input[type="number"]:invalid {
 }
 
 input[type="button"] {
-    margin-top: 50px;
+    margin-top: 5.2798vh;
     /* border: 2px solid #c2d1a5; */
     border: none;
     color: #ffffff;
@@ -53,8 +53,8 @@ input[type="button"]:hover {
 
 .answer {
     text-align: center;
-    margin-top: 22px;
-    margin-bottom: 22px;
+    margin-top: 2.3231vh;
+    margin-bottom: 2.3231vh;
     font-size: 16px;
     font-family: sans-serif;
 }
