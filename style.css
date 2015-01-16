@@ -1,3 +1,11 @@
+/* to add:
+@media all and (max-width: 1000px) {
+ add some css here
+}
+can also use min-width, max-height, min-height
+-experiment with this and find values that work for various size ranges
+*/
+
 h1 {
     text-align: center;
     font-family: sans-serif;
@@ -5,7 +13,7 @@ h1 {
 
 .row {
     font-size: 0px;
-    width: 29.5833vw;
+    width: 568px;
     margin: auto;
 }
 
@@ -14,14 +22,14 @@ h1 {
     border-style: solid;
     border-color: #000000;
     display: inline-block;
-    width: 3.125vw;
-    height: 6.3358vh;
+    width: 60px;
+    height: 60pxh;
     margin-bottom: 0vh;
 }
 
 input[type="number"] {
-    width: 3.125vw;
-    height: 6.1246vh;
+    width: 60px;
+    height: 58px;
     margin: auto;
     text-align: center;
     border: none;
@@ -34,7 +42,7 @@ input[type="number"]:invalid {
 }
 
 input[type="button"] {
-    margin-top: 5.2798vh;
+    margin-top: 50px;
     /* border: 2px solid #c2d1a5; */
     border: none;
     color: #ffffff;
@@ -53,8 +61,8 @@ input[type="button"]:hover {
 
 .answer {
     text-align: center;
-    margin-top: 2.3231vh;
-    margin-bottom: 2.3231vh;
+    margin-top: 22px;
+    margin-bottom: 22px;
     font-size: 16px;
     font-family: sans-serif;
 }
